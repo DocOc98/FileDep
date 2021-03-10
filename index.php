@@ -16,17 +16,26 @@
 		<div class="col-md-3"></div>
 		<div class="col-md-6">
 			<h1>Mostrador de Documentos</h1>
-			<table>
-			</table>
-			<?php 
-				$directory='./files/';
-				$files=scandir($directory);
-				for ($i=0; $i < count($files); $i++){
-					if(strchr($files[$i], ".") and strlen($files[$i])>2){
-						echo "<a href='./files/".$files[$i]."' target='_blanck'>".strchr($files[$i], ".", true)."</a>";
+			<table class="table">
+			    <thead>
+			      <tr>
+				<th>Archivos</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+				    <tr>
+				<?php 
+					$directory='./files/';
+					$files=scandir($directory);
+					for ($i=0; $i < count($files); $i++){
+						if(strchr($files[$i], ".") and strlen($files[$i])>2){
+							echo "<td><a href='./files/".$files[$i]."' target='_blanck'>".strchr($files[$i], ".", true)."</a><td>";
+						}
 					}
-				}
-			?>
+				?>
+				</tr>
+			      </tbody>
+			</table>
 		</div>
 		<div class="col-md-3"></div>
 	</div>
