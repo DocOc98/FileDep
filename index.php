@@ -17,6 +17,11 @@
 		<div class="col-md-6">
 			<h1>Mostrador de Documentos</h1>
 			<table>
+			<tr>
+			<td>
+			<?php echo '<a href="http://localhost/proyectogrupal/FileDep/files/docpdf.txt">¿Que es un documento PDF?</a>';?>
+			</td>
+			</tr>
 			</table>
 			<?php 
 				$directory='./files/';

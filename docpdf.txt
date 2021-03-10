@@ -1,0 +1,12 @@
+
+¿Qué es el formato PDF?
+
+Los archivos PDF dirigen tu mundo. Sabes que empleas archivos PDF para tus trabajos más importantes. 
+Por eso inventamos el formato de documento portátil (más conocido por la sigla PDF), para presentar e 
+intercambiar documentos de manera fiable, independientemente del software, el hardware o el sistema 
+operativo.
+
+El PDF es ahora un estándar abierto, reconocido por la Organización Internacional para la Estandarización
+ (ISO). Los documentos PDF pueden contener vínculos y botones, campos de formulario, audio, video y lógica
+  empresarial. Se pueden firmar electrónicamente y puedes ver con facilidad los archivos PDF en Windows o
+   Mac OS empleando el software gratuito Acrobat Reader DC.
