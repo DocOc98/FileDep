@@ -29,7 +29,11 @@
 					$files=scandir($directory);
 					for ($i=0; $i < count($files); $i++){
 						if(strchr($files[$i], ".") and strlen($files[$i])>2){
-							echo "<td><a href='./files/".$files[$i]."' target='_blanck'>".strchr($files[$i], ".", true)."</a> <td>";
+							$archivo = "./files/$files[$i]";
+              echo "<a href='$archivo' target='_blanck'>".strchr($files[$i], ".", true)."</a>";
+              echo " ---> ";
+              echo "<a href='funciones.php?archivo=$archivo&funcion=eliminar' class='boton boton-eliminar'>ELIMINAR ARCHIVO</a>";
+              echo "<br>";
 						}
 					}
 				?>
